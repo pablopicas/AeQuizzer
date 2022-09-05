@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizesList"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#627FFF"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/left_arrow"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            app:tint="#fff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/helvetica_bold"
+            android:gravity="center"
+            android:text="Quizes"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_67sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_marginRight="@dimen/_12sdp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E3E8FE"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_54sdp"
+                android:layout_height="@dimen/_54sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_12sdp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp">
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="Quiz Name"
+                    android:textSize="22sp"
+                    android:fontFamily="@font/lufgamedium"
+                    android:textColor="#151515"/>
+
+                <cn.iwgang.countdownview.CountdownView
+                    android:id="@+id/mycountdown"
+                    style="@style/CustomFont"
+                    android:layout_width="150dp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:elevation="8dp"
+                    android:visibility="visible"
+                    app:isHideTimeBackground="false"
+                    app:isShowDay="true"
+                    app:isShowHour="true"
+                    app:isShowMillisecond="true"
+                    app:isShowMinute="true"
+                    app:isShowSecond="true"
+                    app:isTimeTextBold="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/circleImageView"
+                    app:layout_constraintTop_toBottomOf="@+id/cateTitle"
+                    app:suffixDay="d"
+                    app:suffixGravity="bottom"
+                    app:suffixHour="h"
+                    app:suffixMillisecond="ms"
+                    app:suffixMinute="m"
+                    app:suffixSecond="s"
+                    app:suffixTextColor="#8295E9"
+                    app:suffixTextSize="12sp"
+                    app:timeBgColor="#E3E8FE"
+                    app:timeTextColor="#8295E9"
+                    app:timeTextSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
