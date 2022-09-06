@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/searchbg.xml" value="0.1895" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/textrankbg.xml" value="0.2035" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/activity_quizes_list.xml" value="0.2" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/classes.xml" value="0.22" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/leaderboard.xml" value="0.16" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/notice.xml" value="0.25" />
       </map>
     </option>
