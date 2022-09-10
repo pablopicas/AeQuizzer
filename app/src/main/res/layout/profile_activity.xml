@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/profile_bg">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#fff"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_80sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/helvetica_bold"
+                        android:gravity="center"
+                        android:text="Khushi Parween"
+                        android:textColor="#151515"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="khushipraween@gmail.com"
+                        android:textColor="#BEBFBF" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:drawableStart="@drawable/coin2"
+                        android:drawablePadding="10dp"
+                        android:fontFamily="@font/helvetica_bold"
+                        android:gravity="center"
+                        android:text="110 Coins"
+                        android:textColor="#000"
+                        android:textSize="@dimen/_14sdp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginStart="20dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_launcher_background" />
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_width="@dimen/_13sdp"
+                android:layout_height="@dimen/_13sdp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:elevation="10dp"
+                android:src="@drawable/pen_icon"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView"
+                app:layout_constraintEnd_toEndOf="@+id/cardView"
+                app:layout_constraintTop_toTopOf="@+id/cardView"
+                app:layout_constraintVertical_bias="0.0"
+                app:tint="#151515" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/profile_menu_bg"
+                android:drawableStart="@drawable/coin2"
+                android:fontFamily="@font/helvetica_bold"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:text="Reedem or Add coins"
+                android:textColor="#9390A1"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/profile_menu_bg"
+                android:drawableStart="@drawable/coin2"
+                android:fontFamily="@font/helvetica_bold"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:text="Reedem or Add coins"
+                android:textColor="#9390A1"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/profile_menu_bg"
+                android:drawableStart="@drawable/coin2"
+                android:fontFamily="@font/helvetica_bold"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:text="Reedem or Add coins"
+                android:textColor="#9390A1"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/profile_menu_bg"
+                android:drawableStart="@drawable/coin2"
+                android:fontFamily="@font/helvetica_bold"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:text="Reedem or Add coins"
+                android:textColor="#9390A1"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/profile_menu_bg"
+                android:drawableStart="@drawable/coin2"
+                android:fontFamily="@font/helvetica_bold"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:text="Reedem or Add coins"
+                android:textColor="#9390A1"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/profile_menu_bg"
+                android:drawableStart="@drawable/coin2"
+                android:fontFamily="@font/helvetica_bold"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:text="Reedem or Add coins"
+                android:textColor="#9390A1"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/profile_menu_bg"
+                android:drawableStart="@drawable/coin2"
+                android:fontFamily="@font/helvetica_bold"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:text="Reedem or Add coins"
+                android:textColor="#9390A1"
+                android:textSize="@dimen/_14sdp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_36sdp"
+                app:cardCornerRadius="12dp"
+                android:backgroundTint="#627FFF"
+                android:outlineSpotShadowColor="#9F627FFF"
+                app:cardElevation="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="60dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Log Out"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/_16sdp"
+                    android:fontFamily="@font/helvetica_bold"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
