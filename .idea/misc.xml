@@ -6,14 +6,18 @@
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/answer_right.xml" value="0.2035" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/answer_wrong.xml" value="0.2035" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/costom_seekbar.xml" value="0.2035" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/editext_bg.xml" value="0.2035" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/gradientbg.xml" value="0.2035" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/next_btn_blue.xml" value="0.2035" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/profile_menu_bg.xml" value="0.2035" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/redeem_coin_history_bg.xml" value="0.2035" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/redeemcoinbg.xml" value="0.2035" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/searchbg.xml" value="0.1895" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/stroke.xml" value="0.2035" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/drawable/textrankbg.xml" value="0.2035" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/activity_quizes_list.xml" value="0.2" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/add_coin.xml" value="0.2" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/chapter_title.xml" value="0.22" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/class_chapter.xml" value="0.22" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/classes.xml" value="0.22" />
@@ -23,6 +27,8 @@
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/quiz_complete.xml" value="0.22" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/quiz_complete_2.xml" value="0.2" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/quiz_play.xml" value="0.25" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/rcv_coin_history.xml" value="0.25" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/redeem_coin.xml" value="0.2" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/AeQuizzer/app/src/main/res/layout/school_class.xml" value="0.33" />
       </map>
     </option>
